@@ -17,7 +17,7 @@ public class PropertiesWrite {
 			output = new FileOutputStream("D:\\config.properties");
 
 			prop.setProperty("database", "localhost");
-			prop.setProperty("dbuser", "shikha");
+			prop.setProperty("dbuser", "niyati");
 			prop.setProperty("dbpassword", "password");
 
 			prop.store(output, null);
